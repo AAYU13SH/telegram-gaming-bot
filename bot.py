@@ -1,4 +1,7 @@
 
+BOT_TOKEN = "BOT_TOKEN = "BOT_TOKEN = "8217667510:AAEho8ILr-t7HrBuPE5Kjx9U1HjZv2DM8v8"
+
+
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
@@ -7,7 +10,7 @@ achievements = {}
 runs = {}
 wickets = {}
 
-ADMIN_ID = 123456789  # Yahan apna Telegram user ID daalo
+ADMIN_ID = "6293455550"
 
 # /add_achievement <text>
 async def add_achievement(update: Update, context: ContextTypes.DEFAULT_TYPE):
